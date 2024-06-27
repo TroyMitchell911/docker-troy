@@ -34,5 +34,5 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/rancher/fleet-agent:v0.9.5 docker://registry.cn-hangzhou.aliyuncs.com/rancher-images/fleet-agent:v0.9.5
+        skopeo copy docker://docker.io/library/ubuntu:22.04 docker://registry.cn-hangzhou.aliyuncs.com/library/ubuntu:22.04
 
